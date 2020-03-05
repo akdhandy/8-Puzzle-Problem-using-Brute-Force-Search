@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Mar 26 22:48:32 2019
+
 
 @author: Achal Vyas
 """
@@ -16,32 +16,6 @@ import cv2
 from itertools import cycle
 
 
-# ### To read the input from the user
-# def read(start,goal,grid):
-#     start_pos = []
-#     goal_pos = []
-#
-#     grid_sz = int(grid)
-#     data_start = start.split(",")
-#     data_goal = goal.split(",")
-#     for element in data_start:
-#         start_pos.append(int(element))
-#     s_pos = (start_pos,0)
-#
-#     for element in data_goal:
-#         goal_pos.append(int(element))
-#     g_pos = [(goal_pos,0)]
-#
-#     return s_pos, g_pos, grid_sz
-#
-# #to get the input from the user
-# parser = argparse.ArgumentParser()
-# parser.add_argument('start_position')
-# parser.add_argument('goal_position')
-# parser.add_argument('grid_size')
-# args = parser.parse_args()
-# start_position, goal_position, grid_length  = read(args.start_position,args.goal_position,args.grid_size)
-# grid_size = [150,250]
 
 
 start_position = ([5,0],0)
